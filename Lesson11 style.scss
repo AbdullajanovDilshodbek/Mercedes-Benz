@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    // scroll bo`lishini sekinlashtiradi
+}
+
+// POSITION=JOYLASHUV
+
+
+// .parent{
+//     width: 500px;
+//     height: 500px;
+//     background-color: dodgerblue;
+//     .child{
+//         width: 100px;
+//         height: 100px;
+//         background-color: green;
+//         position: absolute;
+//         top: 50px;
+//         left: 50px;
+//     }
+//     .demo{
+//         width: 200px;
+//         height: 200px;
+//         background-color: red;
+//     }
+//     // elementga position: absolute; berishdan oldin uning ota elementiga position: relative brish lozim
+// }
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: dodgerblue;
+    top: 0;
+    left: 0;
+    // fixed da teks yoki boshqa elementlar divni tagiga kirib ketadi
+    // sticky da esa avtomatik pastidan chiqadi
+    // position: static; barcha elementlarni boshlangich pozitsiyasi
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    height: 40px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+// h1{
+//     padding-top: 100px;
+// }
